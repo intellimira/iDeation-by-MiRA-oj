@@ -23,6 +23,12 @@
       "trigger": "High-Signal Lead Detected by Agent 5",
       "action": "Generate 'Gold-First' Proposal (Tier 2/3 focus)",
       "measured_potential_roi": "$2k-$5k / Strategic Influence Gain"
+    },
+    {
+      "initiative_id": "SOVEREIGN_INTELLIGENCE",
+      "trigger": "Intelligence Vault reaches critical data density (500 fragments)",
+      "action": "Transition to Phase 2 (Procedural Assembly)",
+      "logic": "Decouple from external API costs and probabilistic drift."
     }
   ],
   "measurement_sync": {
