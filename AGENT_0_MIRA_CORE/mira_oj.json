@@ -29,6 +29,12 @@
       "trigger": "Intelligence Vault reaches critical data density (500 fragments)",
       "action": "Transition to Phase 2 (Procedural Assembly)",
       "logic": "Decouple from external API costs and probabilistic drift."
+    },
+    {
+      "initiative_id": "SENTIENT_CRM_INTEGRATION",
+      "trigger": "Agent 5 (Evangelist) acquisition spike",
+      "action": "Initialize AGENT_6 (CRM Connector) to qualify incoming whales",
+      "logic": "Predictive closing based on Bible-persona alignment"
     }
   ],
   "measurement_sync": {
