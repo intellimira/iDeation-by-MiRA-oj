@@ -17,6 +17,12 @@
       "trigger": "Agent 3 Low Activity",
       "action": "Merge AGENT_3 into AGENT_0",
       "logic": "Reduce I/O overhead"
+    },
+    {
+      "initiative_id": "REVENUE_MAXIMIZATION",
+      "trigger": "High-Signal Lead Detected by Agent 5",
+      "action": "Generate 'Gold-First' Proposal (Tier 2/3 focus)",
+      "measured_potential_roi": "$2k-$5k / Strategic Influence Gain"
     }
   ],
   "measurement_sync": {
