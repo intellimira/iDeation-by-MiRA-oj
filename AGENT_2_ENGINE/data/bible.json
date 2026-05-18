@@ -3,31 +3,18 @@
     {
       "id": "vibe_grapher_pro",
       "name": "Vibe Grapher Pro",
-      "description": "The ultimate architectural compiler for AI-driven development. It bridges the gap between raw intent and deterministic execution.",
+      "description": "Autonomous Revenue Organism for high-ticket AI Sales.",
       "key_benefits": [
-        "Reduces token burn by 10x through structural anchoring.",
-        "Ensures architectural consistency across long-turn sessions.",
-        "Automates the transition from ideation to prototype."
-      ],
-      "technical_specs": {
-        "engine": "MASFactory v1.0",
-        "integration": "Playwright, Python-pptx, OpenAI GPT-4o",
-        "storage": "Local-First Persistence"
-      }
+        "Eliminates layout drift via procedural containerization.",
+        "Matches persona frequency to conversion data autonomously.",
+        "Reduces token burn by 10x using FAA-RSM isolation."
+      ]
     }
   ],
   "persona_mappings": {
-    "Director of Sales": {
-      "tone": "Strategic, ROI-focused, high-level",
-      "priorities": ["Revenue growth", "Team efficiency", "Market share"]
-    },
-    "Solutions Architect": {
-      "tone": "Technical, detail-oriented, interoperability-focused",
-      "priorities": ["Security", "Scalability", "API flexibility"]
-    },
-    "Partner Manager": {
-      "tone": "Collaborative, ecosystem-focused",
-      "priorities": ["Joint value prop", "Ease of integration", "Channel margin"]
+    "C_Suite_Whale": {
+      "tone": "Ultra-concise, ROI-obsessed",
+      "priorities": ["Capital Efficiency", "Market Dominance", "Risk Mitigation"]
     }
   }
 }
