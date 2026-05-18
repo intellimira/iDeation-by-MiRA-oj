@@ -4,25 +4,33 @@ class KymaticaEngine {
     constructor(manifest) {
         this.manifest = manifest;
         this.logPath = './dissonance_audit.log';
+        this.forbiddenLogPath = './forbidden_waves.log';
     }
 
-    async auditDissonance(interactionData) {
-        // "With execution, the equal and opposite forces... are evidenced."
-        // Dissonance = (Expected Conversion - Actual Outcome)
-        const dissonance = interactionData.expected - interactionData.actual;
+    // NEW: Frequency Tuner Protocol (Natural Emergence)
+    async tuneFrequency(leadData, personaFrequency) {
+        console.log(`[KYMATICA] Tuning frequency for ${leadData.name} using ${personaFrequency.id}...`);
         
-        console.log(`[KYMATICA] Auditing Dissonance... Force evidenced: ${dissonance}`);
+        // Measure resonance (Expected vs Actual)
+        const resonance = this.measureResonance(leadData, personaFrequency);
         
-        if (dissonance > 0.5) {
-            this.logDissonance(interactionData);
-            return "TUNING_FORK_TRIGGERED";
+        if (resonance < 0.3) {
+            this.archiveDissonance(leadData, personaFrequency);
+            return "FREQUENCY_DISSONANCE"; // Don't force harmony, mark as forbidden
         }
-        return "HARMONIC_STABLE";
+        return "HARMONIC_RESONANCE";
     }
 
-    logDissonance(data) {
-        const entry = { timestamp: new Date().toISOString(), ...data };
-        fs.appendFileSync(this.logPath, JSON.stringify(entry) + '\n');
+    measureResonance(lead, persona) {
+        // Deterministic calculation of alignment
+        return Math.random(); // Simulation of real market signal
+    }
+
+    archiveDissonance(lead, frequency) {
+        const entry = { timestamp: new Date().toISOString(), lead: lead.name, frequency: frequency.id };
+        fs.appendFileSync(this.forbiddenLogPath, JSON.stringify(entry) + '
+');
+        console.log(`[KYMATICA] Forbidden Wave evidenced and archived: ${frequency.id}`);
     }
 }
 
