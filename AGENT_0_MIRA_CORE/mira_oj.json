@@ -35,6 +35,12 @@
       "trigger": "Agent 5 (Evangelist) acquisition spike",
       "action": "Initialize AGENT_6 (CRM Connector) to qualify incoming whales",
       "logic": "Predictive closing based on Bible-persona alignment"
+    },
+    {
+      "initiative_id": "DISSONANCE_AUDIT",
+      "trigger": "Agent 7 (Kymatica) detects high dissonance",
+      "action": "Refine Bible fragments & Adjust Persona frequency",
+      "logic": "The failure IS the data."
     }
   ],
   "measurement_sync": {
