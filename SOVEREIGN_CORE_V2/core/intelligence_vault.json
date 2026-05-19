@@ -1,0 +1,9 @@
+{
+  "vault_metadata": {
+    "version": "1.0",
+    "harvest_status": "ACTIVE",
+    "critical_density_target": 500,
+    "current_fragment_count": 0
+  },
+  "fragments": []
+}

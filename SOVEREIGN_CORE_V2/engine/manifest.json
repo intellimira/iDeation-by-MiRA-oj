@@ -1,0 +1,16 @@
+{
+  "framework": "MASFactory_VibeGraph_v1.0",
+  "mode": "CONCISENESS_FIRST",
+  "paths": {
+    "bible": "data/bible.json",
+    "templates": "templates/",
+    "assets": "assets/temp_img/",
+    "outputs": "outputs/"
+  },
+  "constraints": {
+    "max_persona_tokens": 150,
+    "pdf_font_scaling": "fluid",
+    "ppt_master_preservation": true,
+    "local_persistence": true
+  }
+}

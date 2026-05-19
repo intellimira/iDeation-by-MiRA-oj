@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "id": "vibe_grapher_pro",
+      "name": "Vibe Grapher Pro",
+      "description": "Autonomous Revenue Organism for high-ticket AI Sales.",
+      "key_benefits": [
+        "Eliminates layout drift via procedural containerization.",
+        "Matches persona frequency to conversion data autonomously.",
+        "Reduces token burn by 10x using FAA-RSM isolation."
+      ]
+    }
+  ],
+  "persona_mappings": {
+    "C_Suite_Whale": {
+      "tone": "Ultra-concise, ROI-obsessed",
+      "priorities": ["Capital Efficiency", "Market Dominance", "Risk Mitigation"]
+    }
+  }
+}

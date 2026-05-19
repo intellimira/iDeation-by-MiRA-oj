@@ -1,0 +1,8 @@
+{
+  "registry": {
+    "BLUEPRINT": { "path": "../blueprint", "status": "DORMANT" },
+    "ENGINE": { "path": "../engine", "status": "DORMANT" },
+    "MARKET": { "path": "../market", "status": "DORMANT" },
+    "KYMATICA": { "path": "../core", "status": "DORMANT" }
+  }
+}
