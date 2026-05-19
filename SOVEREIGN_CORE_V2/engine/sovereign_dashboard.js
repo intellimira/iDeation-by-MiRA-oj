@@ -1,7 +1,11 @@
 const fs = require('fs');
+const path = require('path');
+const GlobalLedger = require('../core/global_ledger');
 
 class SovereignDashboard {
     constructor(dataDir) {
+        this.manifest = { paths: { assets: './assets/' } }; // Simplified for dashboard
+        this.ledger = new GlobalLedger(this.manifest);
         this.whopData = fs.readFileSync(path.join(dataDir, 'whop_export_mock.csv'), 'utf8');
         this.dissonanceLog = fs.readFileSync('../core/dissonance_audit.log', 'utf8').split('\n').filter(Boolean);
     }
@@ -22,8 +26,13 @@ class SovereignDashboard {
             }
         };
 
+        // Snapshot update
         fs.writeFileSync('../market/dashboard/sovereign_kpi_report.json', JSON.stringify(report, null, 2));
-        console.log("✅ [DASHBOARD] Report finalized for remote Mira-oj review.");
+        
+        // Longitudinal update
+        this.ledger.updateLedger(report);
+        
+        console.log("✅ [DASHBOARD] Report finalized and aggregated for remote Mira-oj review.");
     }
 }
 
