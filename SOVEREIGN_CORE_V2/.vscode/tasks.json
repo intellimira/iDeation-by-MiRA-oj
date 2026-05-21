@@ -2,18 +2,18 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Ari: Run Sovereign Extraction",
+      "label": "Mira: Run Strategic Audit",
       "type": "shell",
-      "command": "node engine/mine_gold.js",
-      "group": "build",
+      "command": "node core/sentinel_core.js",
+      "group": "test",
       "presentation": { "reveal": "always", "panel": "dedicated" }
     },
     {
-      "label": "Ari: Run Dissonance Audit",
+      "label": "Ari: Execute Pipeline",
       "type": "shell",
-      "command": "node core/sovereign_dashboard.js",
-      "group": "test",
-      "presentation": { "reveal": "silent" }
+      "command": "node engine/run_triple_threat.js",
+      "group": "build",
+      "presentation": { "reveal": "always", "panel": "dedicated" }
     }
   ]
 }
