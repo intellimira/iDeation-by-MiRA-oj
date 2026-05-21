@@ -1,7 +1,11 @@
-# Ari: Autonomous Ignition Protocol (v2.3)
+# Ari: Autonomous Ignition Protocol (v2.6 - Absolute Alignment)
 $ErrorActionPreference = "Stop"
 
-Write-Host "🔥 [IGNITION] Starting IntelliMira Sovereign Core v2.3..." -ForegroundColor Cyan
+# Use PSScriptRoot to ensure we operate in the script's folder, regardless of terminal CWD
+$WorkDir = $PSScriptRoot
+Set-Location $WorkDir
+
+Write-Host "🔥 [IGNITION] Starting IntelliMira Sovereign Core v2.6 from $WorkDir..." -ForegroundColor Cyan
 
 # 1. Environment Sovereignty Check
 if (-not $env:GEMINI_API_KEY) {
