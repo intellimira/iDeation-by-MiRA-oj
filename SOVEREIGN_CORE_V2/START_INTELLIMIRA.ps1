@@ -1,16 +1,12 @@
-# Ari: Autonomous Ignition Protocol (v2.6 - Absolute Alignment)
+# Ari: Autonomous Ignition Protocol (v2.7 - Sovereign)
 $ErrorActionPreference = "Stop"
 
-# Use PSScriptRoot to ensure we operate in the script's folder, regardless of terminal CWD
-$WorkDir = $PSScriptRoot
-Set-Location $WorkDir
+Write-Host "🔥 [IGNITION] Starting IntelliMira Sovereign Core v2.7..." -ForegroundColor Cyan
 
-Write-Host "🔥 [IGNITION] Starting IntelliMira Sovereign Core v2.6 from $WorkDir..." -ForegroundColor Cyan
-
-# 1. Environment Sovereignty Check
+# 1. Sovereign Auth Check
+# Instead of hard-aborting, we check for available Auth Frequency
 if (-not $env:GEMINI_API_KEY) {
-    Write-Host "⚠️ [DISSONANCE] GEMINI_API_KEY environment variable missing. Launch aborted." -ForegroundColor Red
-    exit
+    Write-Host "⚠️ [DISSONANCE] No GEMINI_API_KEY detected. Engine will attempt CLI-native fallback." -ForegroundColor Yellow
 }
 
 # 2. Sync with Repository
@@ -29,4 +25,4 @@ node engine/run_triple_threat.js
 Write-Host "✨ [PORTAL] Opening IntelliMira Studio..." -ForegroundColor Magenta
 code .
 
-Write-Host "[GREATNESS] Pipeline Active. Studio Operational." -ForegroundColor Green
+Write-Host "✅ [GREATNESS] Pipeline Active. Studio Operational." -ForegroundColor Green
