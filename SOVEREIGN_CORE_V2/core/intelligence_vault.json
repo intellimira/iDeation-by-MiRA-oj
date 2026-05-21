@@ -3,7 +3,41 @@
     "version": "1.0",
     "harvest_status": "ACTIVE",
     "critical_density_target": 500,
-    "current_fragment_count": 0
+    "current_fragment_count": 3
   },
-  "fragments": []
+  "fragments": [
+    {
+      "id": "TORRENT_1779273618993",
+      "timestamp": "2026-05-20T10:40:18.993Z",
+      "type": "HARVESTED_DATA",
+      "metadata": {
+        "name": "FL Studio 2026 Beta 7 (v25.2.99.5438) + All Plugins [R2R]",
+        "resonance": 0.8,
+        "status": "NEUTRAL",
+        "source": "R2R"
+      }
+    },
+    {
+      "id": "TORRENT_1779274948115",
+      "timestamp": "2026-05-20T11:02:28.115Z",
+      "type": "HARVESTED_DATA",
+      "metadata": {
+        "name": "FL Studio 2026 Beta 7 (v25.2.99.5438) + All Plugins [R2R]",
+        "resonance": 0.8,
+        "status": "NEUTRAL",
+        "source": "R2R"
+      }
+    },
+    {
+      "id": "TORRENT_1779274993011",
+      "timestamp": "2026-05-20T11:03:13.011Z",
+      "type": "HARVESTED_DATA",
+      "metadata": {
+        "name": "FL Studio 2025.2.5 (v21.3.x) Full Installer + All Plugins Bundle [Scene]",
+        "resonance": 1,
+        "status": "HARMONIC",
+        "source": "Scene_Master"
+      }
+    }
+  ]
 }

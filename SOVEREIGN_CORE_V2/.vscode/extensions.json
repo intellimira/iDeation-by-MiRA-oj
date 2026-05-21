@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "ms-azuretools.vscode-docker",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.path-intellisense",
+    "mushan.vscode-paste-image",
+    "hediet.vscode-drawio",
+    "mechatroner.rainbow-csv",
+    "redhat.vscode-yaml"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "manifest.json": "registry.json, intelligence_vault.json",
+    "kymatica_engine.js": "dissonance_audit.log, frequency_log.log",
+    "crm_connector.js": "whop_export_mock.csv"
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "window.title": "IntelliMira Sovereign Studio - ${activeEditorShort}",
+  "workbench.colorTheme": "Default Dark Modern"
+}

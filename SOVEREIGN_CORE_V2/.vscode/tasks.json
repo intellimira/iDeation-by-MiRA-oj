@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Ari: Run Sovereign Extraction",
+      "type": "shell",
+      "command": "node engine/mine_gold.js",
+      "group": "build",
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "Ari: Run Dissonance Audit",
+      "type": "shell",
+      "command": "node core/sovereign_dashboard.js",
+      "group": "test",
+      "presentation": { "reveal": "silent" }
+    }
+  ]
+}

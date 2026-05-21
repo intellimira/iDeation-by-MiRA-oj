@@ -7,7 +7,7 @@ async function runTripleThreat() {
     const manifest = JSON.parse(fs.readFileSync('manifest.json', 'utf8'));
     const bible = JSON.parse(fs.readFileSync(manifest.paths.bible, 'utf8'));
     
-    const rewriter = new PersonaRewriter({ method: 'GEMINI', apiKey: process.env.GEMINI_API_KEY });
+    const rewriter = new PersonaRewriter({ method: 'MOCK', apiKey: 'MOCK_KEY' });
     const pptGen = new PPTGenerator(manifest);
 
     const personas = ["Director of Sales", "Solutions Architect", "Partner Manager"];

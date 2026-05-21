@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "core",
+			"name": "01_CORE (The Brain)"
+		},
+		{
+			"path": "engine",
+			"name": "02_ENGINE (The Muscle)"
+		},
+		{
+			"path": "market",
+			"name": "03_MARKET (The Signal)"
+		},
+		{
+			"path": "blueprint",
+			"name": "04_BLUEPRINT (The Light)"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/node_modules": true
+		},
+		"editor.formatOnSave": true
+	}
+}
