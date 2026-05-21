@@ -1,11 +1,11 @@
-# Ari: Autonomous Ignition Protocol (v2.2)
+# Ari: Autonomous Ignition Protocol (v2.3)
 $ErrorActionPreference = "Stop"
 
-Write-Host "🔥 [IGNITION] Starting IntelliMira Sovereign Core v2.2..." -ForegroundColor Cyan
+Write-Host "🔥 [IGNITION] Starting IntelliMira Sovereign Core v2.3..." -ForegroundColor Cyan
 
 # 1. Environment Sovereignty Check
 if (-not $env:GEMINI_API_KEY) {
-    Write-Host "⚠️ [DISSONANCE] API KEY MISSING. Launch aborted." -ForegroundColor Red
+    Write-Host "⚠️ [DISSONANCE] GEMINI_API_KEY environment variable missing. Launch aborted." -ForegroundColor Red
     exit
 }
 
@@ -25,4 +25,4 @@ node engine/run_triple_threat.js
 Write-Host "✨ [PORTAL] Opening IntelliMira Studio..." -ForegroundColor Magenta
 code .
 
-Write-Host "✅ [GREATNESS] Pipeline Active. Studio Operational." -ForegroundColor Green
+Write-Host "[GREATNESS] Pipeline Active. Studio Operational." -ForegroundColor Green
